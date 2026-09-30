@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 30px;
+
+}
+nav{
+    background-color: lightyellow;
+    padding: 15px;
+    margin-top: 15px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+#welcome{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 30px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 10px 20px 30px;
+
+}
+#about{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 30px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid blue;
+    box-shadow: 5px 10px 20px ;
+    
+}
+#skills h2,
+#blogs h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#skills{
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.skill-box{
+    width: 300px;
+    padding: 25px;
+    border: 20px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+    box-shadow: 5px 10px 20px;
+}
+.skill-box ol,
+.skill-box ul{
+    margin-top: 15px;
+    text-align: left;
+    padding-left: 30px;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.blog{
+    width: 30%;
+    padding: 25px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: lightblue;
+    box-shadow: 5px 10px 20px;
+}
+.blog p{
+    margin-top: 15px;
+    line-height: 1.6;
+}
+#contact{
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    background-color : lightblue;
+    padding: 20px;
+    margin-top: 40px;
+}
